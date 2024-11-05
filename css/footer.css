@@ -1,6 +1,12 @@
 #barra-preta{
     background-color: var(--escuro);
-    height: 120px;
-    margin: 0px 200px 0px 200px;
+    height: 100px;
+    width: 88%;
+    
+}
+@media (max-width: 400px){
+    #barra-preta{
+        width: 100%;
+    }
     
 }

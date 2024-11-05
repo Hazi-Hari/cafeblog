@@ -1,18 +1,21 @@
 #corpofora{
     background-color: var(--cinza);
     display:flex;
-    margin: 0px 200px 0px 200px;
+    width: 88%;
     align-items: center;
+    justify-content: center;
+    padding: 50px;
 
 }
 
 #corpodentro{
-    background-color:var(--claro); 
+    background-color: var(--claro);
     display: flex;
     justify-content: center;
     padding: 50px;
-    margin: 30px 290px 30px 290px;
+    width: 80%;
     border-radius: 30px;
+    align-items: center;
 
 }
 
@@ -28,4 +31,27 @@
     flex-direction: column;
     align-items: center;
 
+}
+
+.lista {
+    padding: 20px;
+}
+@media (max-width: 400px){
+
+    #corpofora{
+        width: 100%;
+        padding: 10px;
+    }
+
+    #corpodentro{
+        width: 90%;
+    }
+
+    #logo{
+        height: 200px;
+        width: 300px;
+        
+
+    }
+    
 }
