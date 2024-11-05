@@ -1,123 +1,21 @@
+@import url(../css/header.css);
+@import url(../css/conteudo.css);
+@import url(../css/footer.css);
+
 /*--------------------------- reset de configurações------------------------------- */
+:root{
+    --marrom:rgb(152, 123, 93);
+    --escuro:black;
+    --claro:white;
+    --cinza:rgb(235, 235, 235);
+    --marrom_avermelhado:brown;
+    --terra:wheat;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 /*--------------------------------------------------------------------------------- */
-
-
-
-/*--------------------------- primeira barra------------------------------- */
-
-#barra {
-    background-color: rgb(152, 123, 93);
-    height: 50px;
-    margin: 0px 200px 0px 200px;
-    justify-content: center;
-    display: flex;
-
-}
-
-
-
-.cafeimg {
-    display: flex;
-    height: 50px;
-   
-
- 
-    
-}
-
-
-
-
-.blogcafe {
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0px 840px 0px 800px;
-}
-
-
-/*--------------------------------------------------------------------------------- */
-
-
-/*--------------------------- segunda barra------------------------------- */
-#barra2 {
-    background-color: wheat ;
-    margin: 0px 200px 0px 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-
-
-   
-}
-
-
-
-.menu-list {
-    margin: 0px 10px 0px 10px;
-    list-style: none;  
-    display: flex;
-    
-
-    
-}
-/*--------------------------------------------------------------------------------- */
-
-
-
-/*---------------------------corpo do centro------------------------------- */
-
-#corpofora{
-    background-color: rgb(235, 235, 235);
-    display:flex;
-    margin: 0px 200px 0px 200px;
-    align-items: center;
-
-}
-
-#corpodentro{
-    background-color:white; 
-    display: flex;
-    justify-content: center;
-    padding: 50px;
-    margin: 30px 290px 30px 290px;
-    border-radius: 30px;
-
-}
-
-#logo {
-    height: 500px;
-    width: 1000px;
-    margin: 40px 0px 20px 0px;
-    border-radius: 20px;
-}
-
-#conteudo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-/*--------------------------------------------------------------------------------- */
-
-
-
-/*---------------------------Barra preta no final do site------------------------------- */
-#barra-preta{
-    background-color: black;
-    height: 120px;
-    margin: 0px 200px 0px 200px;
-    
-}
-/*--------------------------------------------------------------------------------- */
-
-
 

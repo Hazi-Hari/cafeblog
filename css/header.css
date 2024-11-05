@@ -1,0 +1,58 @@
+
+
+#barra {
+    background-color:var(--marrom);
+    height: 50px;
+    margin: 0px 200px 0px 200px;
+    justify-content: center;
+    display: flex;
+    color: var(--marrom_avermelhado);
+
+}
+
+
+
+.cafeimg {
+    display: flex;
+    height: 50px;
+   
+
+ 
+    
+}
+
+
+
+
+.blogcafe {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 840px 0px 800px;
+}
+
+/*==================*/
+
+#barra2 {
+    background-color:var(--terra) ;
+    margin: 0px 200px 0px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+
+
+   
+}
+
+
+
+.menu-list {
+    margin: 0px 10px 0px 10px;
+    list-style: none;  
+    display: flex;
+    
+
+    
+}

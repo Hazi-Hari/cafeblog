@@ -1,0 +1,31 @@
+#corpofora{
+    background-color: var(--cinza);
+    display:flex;
+    margin: 0px 200px 0px 200px;
+    align-items: center;
+
+}
+
+#corpodentro{
+    background-color:var(--claro); 
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin: 30px 290px 30px 290px;
+    border-radius: 30px;
+
+}
+
+#logo {
+    height: 500px;
+    width: 1000px;
+    margin: 40px 0px 20px 0px;
+    border-radius: 20px;
+}
+
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
