@@ -36,6 +36,11 @@
 .lista {
     padding: 20px;
 }
+
+
+
+
+
 @media (max-width: 400px){
 
     #corpofora{
@@ -54,4 +59,18 @@
 
     }
     
+}
+
+
+
+@media  (max-width:1024px) {
+    #logo {
+        height: 500px;
+        width:700px;
+    }
+
+    #corpofora{
+        width: 100%;
+        padding: 20px;
+    }
 }
