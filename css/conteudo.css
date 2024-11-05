@@ -40,8 +40,8 @@
 
 
 
-
-@media (max-width: 400px){
+/*===========CELULAR=============*/
+@media (max-width: 120px){
 
     #corpofora{
         width: 100%;
@@ -55,18 +55,17 @@
     #logo{
         height: 200px;
         width: 300px;
-        
-
-    }
-    
+    }  
 }
+/*===================================*/
 
 
 
-@media  (max-width:1024px) {
+/*=============IPAD PRO=============*/
+@media  (max-width:1020px) {
     #logo {
-        height: 500px;
-        width:700px;
+        height: 400px;
+        width:600px;
     }
 
     #corpofora{
@@ -74,3 +73,15 @@
         padding: 20px;
     }
 }
+/*===================================*/
+
+
+
+/*================IPAD===============*/
+@media (max-width:768px) {
+    #logo{
+        height: 300px;
+        width: 500px;
+    }
+}
+/*===================================*/
