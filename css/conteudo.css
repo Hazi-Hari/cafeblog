@@ -39,9 +39,35 @@
 
 
 
+/*=============IPAD PRO=============*/
+@media (max-width:1300px) {
+    #logo {
+        height: 300px;
+        width:500px;
+    }
+
+    #corpofora{
+        width: 88%;
+        padding: 20px;
+    }
+}
+/*===================================*/
+
+
+
+/*================IPAD===============*/
+@media (max-width:768px) {
+    #logo{
+        height: 300px;
+        width: 500px;
+    }
+}
+/*===================================*/
+
+
 
 /*===========CELULAR=============*/
-@media (max-width: 120px){
+@media (max-width: 450px){
 
     #corpofora{
         width: 100%;
@@ -61,27 +87,32 @@
 
 
 
-/*=============IPAD PRO=============*/
-@media  (max-width:1020px) {
-    #logo {
-        height: 400px;
-        width:600px;
-    }
+/*===========MINI-CELULAR=============*/
+@media (max-width: 390px){
+
+    #conteudo > h1{
+        font-size: 25px;
+    } 
 
     #corpofora{
         width: 100%;
-        padding: 20px;
+        padding: 10px;
     }
-}
-/*===================================*/
 
+    #corpodentro{
+        width: 90%;
+    }
 
-
-/*================IPAD===============*/
-@media (max-width:768px) {
     #logo{
-        height: 300px;
-        width: 500px;
-    }
+        height: 180px;
+        width: 250px;
+    }  
 }
 /*===================================*/
+
+
+
+
+
+
+
